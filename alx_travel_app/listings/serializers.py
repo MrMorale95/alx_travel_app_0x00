@@ -11,6 +11,8 @@ class ListingSerializer(serializers.ModelSerializer):
         model = Listing
         fields = ["id", 'name', 'description', 'location', 'price_per_night', 'created_at', 'updated_at']
 
+    
+
 class BookingSerializer(serializers.ModelSerializer):
     """
     Serializer for Booking model.
